@@ -189,7 +189,7 @@ class Ex2Test {
 
 
 	 /*
-	  * we wanted to see if an unusual input is given
+	  * second case, this time an unusual input
 	  * also gets a right answer
 	  */
 
