@@ -46,20 +46,14 @@ public class MyMap2D implements Map2D {
     }
 
     @Override
-    public int getPixel(int x, int y) {
-        return _map[x][y];
-    }
+    public int getPixel(int x, int y) {return _map[x][y];}
 
     @Override
     public int getPixel(Point2D p) {return this.getPixel(p.ix(), p.iy());}
 
-    public void setPixel(int x, int y, int v) {
-        _map[x][y] = v;
-    }
+    public void setPixel(int x, int y, int v) {_map[x][y] = v;}
 
-    public void setPixel(Point2D p, int v) {
-        setPixel(p.ix(), p.iy(), v);
-    }
+    public void setPixel(Point2D p, int v) {setPixel(p.ix(), p.iy(), v);}
 
     @Override
 
