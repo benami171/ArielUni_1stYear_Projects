@@ -67,7 +67,7 @@ public class Ex1 {
          * then we increase 'i' by 2 so 5 % 5 = 0, so maxPrime = 5 and gcd = 1
          * then 1 % 5 != 0, so we break out of the while loop
          * then gcd = 1, so we break out of the for loop,
-         * then we return maxPrime = 5
+         * then we return maxPrime = 5.
          */
         
         for (int i = 3; i <= Math.sqrt(gcd); i = i + 2) {
